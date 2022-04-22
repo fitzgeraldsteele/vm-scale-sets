@@ -88,3 +88,10 @@ ENV/
 # Rope project settings
 .ropeproject
 .DS_Store
+
+# Terraform stuff
+vmss-flex-azapi/.terraform.lock.hcl
+vmss-flex-azapi/.terraform/
+vmss-flex-azapi/.terraform.tfstate.lock.info
+vmss-flex-azapi/terraform.tfstate.backup
+vmss-flex-azapi/terraform.tfstate
