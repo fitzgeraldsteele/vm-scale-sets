@@ -30,7 +30,7 @@ resource "azapi_resource" "vmssflex-specialty" {
 
   body = jsonencode({
     sku = {
-        capacity = 0
+        capacity = 2
         name = "Standard_M8ms"
     }
 
@@ -110,7 +110,7 @@ resource "azapi_resource" "vmssflex-spotmix" {
 
   body = jsonencode({
     sku = {
-        capacity = 0
+        capacity = 20
         name = "Standard_F1s"
     }
 
